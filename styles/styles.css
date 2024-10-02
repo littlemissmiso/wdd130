@@ -1,3 +1,9 @@
+:root {
+    --heading-background-color: rgb(224, 175, 53); 
+    --heading-text-color: white;
+    --font-family: Arial, Helvetica, sans-serif;
+    }
+
 main {
     max-width: 840px;
 }
@@ -11,29 +17,37 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    font-family: var(--font-family);
 }
 
 h1 {
-    color: steelblue;
+    text-align: left;
+    padding: .5rem;
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--font-family);
+
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
+    border: 2px solid rgba(51, 75, 93, 0.545);
+    padding: 5px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 0;
+    padding: 1rem;
 }
+
 
 footer {
     margin-top: 40px;
     border-top: 1px solid rgb(42, 66, 85);
     text-align: center;
-}
+    }
 
 aside {
     img { 
@@ -47,7 +61,7 @@ aside {
     width: 20rem;
     margin: 0rem;
     border: 3px solid rgb(113, 131, 146);
-    padding: 1rem;
+    padding: rem;
     background-color: rgb(148, 173, 194);
     color: #000000;
     text-align: center;
