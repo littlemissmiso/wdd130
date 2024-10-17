@@ -138,18 +138,19 @@ body {
     grid-template-columns: 300px 300px 300px;
     justify-content: center;
     text-align: center;
-    margin-bottom: 75px;
+    margin-bottom: 40px;
 }
 .employees img {
     width: 250px;
     height: auto;
     margin: 1rem;
+    margin-top: 2rem;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.533);
     
 }
 
 .employees figcaption {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 form body {
@@ -257,21 +258,13 @@ form footer {
 }
 
 
-
-
-
-
-
-
-
-
-
 footer {
     display: grid;
     grid-template-columns: 5fr 1fr;
     background-color: #0A2239;
     text-align: right;
     align-items: center;
+    margin-top: 20px;
      
 }
 
