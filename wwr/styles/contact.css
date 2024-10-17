@@ -89,6 +89,25 @@ body {
  
 }
 
+.hero p {
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+    font-size: 250%;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 64%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    width: 50%;
+    z-index: 1;
+    background-color: rgb(232, 199, 11);
+    
+
+}
+
 .contacts {
     text-align: center;
     background-color: #7cc8c4c1;
