@@ -294,7 +294,7 @@ form footer {
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 5fr 5fr 1fr;
     background-color: #0A2239;
     text-align: right;
     align-items: center;
